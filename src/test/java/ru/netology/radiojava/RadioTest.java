@@ -7,7 +7,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldNotSetCurrentRadioStationAboveMax () {
+    public void shouldNotSetCurrentRadioStationAboveMax() {
         Radio radio = new Radio();
 
         radio.setCurrentRadioStation(10);
@@ -20,7 +20,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldNotSetCurrentRadioStationUnderMin () {
+    public void shouldNotSetCurrentRadioStationUnderMin() {
         Radio radio = new Radio();
 
         radio.setCurrentRadioStation(-1);
@@ -33,7 +33,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldSetNextRadioStation () {
+    public void shouldSetNextRadioStation() {
         Radio radio = new Radio();
 
         radio.setCurrentRadioStation(1);
@@ -48,7 +48,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldSetNextRadioStationAboveMax () {
+    public void shouldSetNextRadioStationAboveMax() {
         Radio radio = new Radio();
 
         radio.setCurrentRadioStation(9);
@@ -63,7 +63,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldSetPrevRadioStation () {
+    public void shouldSetPrevRadioStation() {
         Radio radio = new Radio();
 
         radio.setCurrentRadioStation(8);
@@ -78,7 +78,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldSetPrevRadioStationUnderMin () {
+    public void shouldSetPrevRadioStationUnderMin() {
         Radio radio = new Radio();
 
         radio.setCurrentRadioStation(0);
@@ -93,7 +93,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldIncreaseVolume () {
+    public void shouldIncreaseVolume() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(8);
@@ -108,7 +108,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldDecreaseVolume () {
+    public void shouldDecreaseVolume() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(2);
@@ -123,7 +123,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldNotIncreaseAboveMaxVolume () {
+    public void shouldNotIncreaseAboveMaxVolume() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(11);
@@ -138,7 +138,7 @@ public class RadioTest {
 
     @Test
 
-    public void shouldNotDecreaseUnderMinVolume () {
+    public void shouldNotDecreaseUnderMinVolume() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(-2);
